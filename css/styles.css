@@ -1,0 +1,42 @@
+body {
+  background: #fff;
+  color: #333;
+  padding-top: 120px;
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+#wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.blue-text {
+  color: #45cae6;
+}
+
+.logo-and-tabs * {
+  display: inline-block;
+}
+
+.tabs p {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.tabs {
+  float: right;
+}
+
+#sign-up {
+  font-weight: 600;
+  padding-right: 10px;
+  border-right: solid 1px lightgrey;
+}
+
+.sign-up-body {
+  display: block;
+  padding: 43px 50px 50px;
+  box-shadow: 0px 4px 3px 1px #d8d8d8;
+  margin-bottom: 80px;
+}
