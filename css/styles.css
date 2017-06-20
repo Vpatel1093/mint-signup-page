@@ -37,6 +37,99 @@ body {
 .sign-up-body {
   display: block;
   padding: 43px 50px 50px;
-  box-shadow: 0px 4px 3px 1px #d8d8d8;
+  box-shadow: 1px 2px 3px 2px #d8d8d8;
   margin-bottom: 80px;
+  height: 650px;
+}
+
+.sign-up-form {
+  display: block;
+  float: left;
+  width: 440px;
+}
+
+.sign-up-form p {
+  margin-top: 0;
+  width: 430px;
+}
+
+.sign-up-form h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.sign-up-form h5 * {
+  display: inline;
+}
+
+.sign-up-form h5 {
+  color: #7d7f80;
+}
+
+.sign-up-tips {
+  display: block;
+  float: right;
+  width: 24%;
+  height: 489px;
+  padding-left: 20px;
+  border-left: solid 1px #d3d3d3;
+}
+
+.sign-up-tips ul {
+  color: #a5a5a5;
+  padding-left: 10px;
+}
+
+.sign-up-tips h5 {
+  margin: 0;
+  font-size: 16px;
+}
+
+#remember-me input, #remember-me p {
+  display: inline;
+  vertical-align: bottom;
+}
+
+#remember-me input {
+  margin: 0 4px 0 0;
+}
+
+#submit {
+  color: #fff;
+  padding: 10px 20px 10px 40px;
+  background: #45cae6 url(https://accounts.intuit.com/IUS-Plugins/v2/images/icon-whitelock@3x.png);
+  background-position: 18px 10px;
+  background-size: 14px 18px;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  border: none;
+}
+
+footer {
+  color: #a5a5a5;
+  margin: auto;
+  text-align: center;
+}
+
+.secondary-links {
+  list-style: none;
+}
+
+.secondary-links li {
+  display: inline-block;
+  padding: 0 20px;
+  border-right: solid 1px #ccc;
+}
+
+.secondary-links li:last-of-type {
+  border-right: none;
+}
+
+#licenses * {
+  display: inline;
+}
+
+footer img {
+  clear: both;
+  padding: 60px 0 5px;
 }
